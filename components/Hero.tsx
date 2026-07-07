@@ -58,7 +58,7 @@ export default function Hero() {
         <div className="w-full lg:w-3/5">
 
           <img
-            src="/hero.jpg"
+            src="/hotel-altana.jpg"
             alt="Hotel Altana"
             className="h-auto w-full rounded-3xl object-cover shadow-2xl"
           />
