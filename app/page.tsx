@@ -1,7 +1,6 @@
 import Hero from "../components/Hero";
 import Rooms from "../components/Rooms";
 import Gallery from "../components/Gallery";
-import Testimonials from "@/components/Testimonials";
 import Footer from "../components/Footer";
 import DirectBooking from "@/components/DirectBooking";
 
