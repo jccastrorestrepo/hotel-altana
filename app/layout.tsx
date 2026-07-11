@@ -45,6 +45,10 @@ export const metadata: Metadata = {
 
   publisher: "Hotel Altana",
 
+  verification: {
+    google: "skirVxL158-98m3hhI8fSG3ecR2Db0q2nTslCW7OHXg",
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -53,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hotel Altana | Hotel en San Antonio, Cali",
     description:
-      "Reserva directamente con Hotel Altana y disfruta de una excelente ubicación en el barrio San Antonio de Cali.",
+      "Reserva directamente con Hotel Altana y disfruta de una excelente ubicación en el tradicional barrio San Antonio de Cali.",
     url: "https://www.hotelaltana.com",
     siteName: "Hotel Altana",
     locale: "es_CO",
@@ -75,7 +79,9 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+      </body>
     </html>
   );
 }
